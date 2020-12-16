@@ -1,0 +1,37 @@
+.closeButton {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 20px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  font: inherit;
+}
+
+.closeButton:focus {
+  outline: none;
+}
+
+.closeButton:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.closeButton:active {
+  background: 0 0 15 rgba(0, 0, 0, 0.2);
+}
+
+/* @keyframes modalOpen {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms, translate(-50%, -50%);
+  }
+} */

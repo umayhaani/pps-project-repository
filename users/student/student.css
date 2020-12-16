@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.NavbarItems-student {
+  background: linear-gradient(to bottom right, #ff4382, #ffce00);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2 rem;
+}
+.navbar-logo-student {
+  color: #fff;
+  justify-self: start;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav-menu-student {
+  font-size: 16px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  /* grid-gap: 1px; */
+  list-style: none;
+  text-align: center;
+  width: 65vw;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.nav-links-student {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  list-style: none;
+}
+
+.nav-links-student:hover {
+  background-color: #e63c44;
+  /* border-radius: 1px; */
+  border-radius: 20px;
+  transition: all 0.2s ease-out;
+}
+
+.body-div {
+  box-shadow: 1px 5px crimson;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #f8f52e 0%, #fff 100%);
+  /* background-color:#ff4382 ; */
+  padding: 50px;
+  margin-top: 0px;
+  /* align-content: space-around; */
+  margin-left: 60px;
+  /* margin-right: 50px; */
+  width: 200px;
+  height: 150px;
+}
+.body-div:hover {
+  box-shadow: 1px 10px 10px #f8f52e;
+  background: linear-gradient(to bottom right, #ff4382, #ffce00);
+}
+
+.text-student {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  display: grid;
+  text-decoration: underline overline;
+  text-align: center;
+}
+
+.text-student:hover {
+  color: #fff;
+}
+.button-div {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.all-divs {
+  display: flex;
+  /* display: block; */
+  /* background: linear-gradient(to bottom right, #bdb4af , #4e0f4b  ); */
+  flex-direction: row;
+  opacity: 0.8;
+  /* background-color:#ccc; */
+  position: relative;
+  /* top: 0px;
+  left: 0px; */
+  margin-top: 5px;
+
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.all-divs .body-div {
+  margin-right: 1rem;
+  margin-left: 4rem;
+  width: fit-content;
+}
+.button-student {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 20px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-student:focus {
+  outline: none;
+}
+
+.button-student:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+}
+
+.button-student:active {
+  background: #ffce00;
+  border-color: #ff4382;
+}
+
+.background {
+  /* opacity:0.8; */
+  /* background-color:#ccc; */
+  position: fixed;
+  margin-top: 180px;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.bow {
+  margin-top: 110px;
+  width: 100%;
+  height: 130px;
+}
+
+.outerDiv_Student {
+  /* background-image: url("../../assets/studentbg.jpeg"); */
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1px;
+}
+.logo-stu {
+  height: 65px;
+  border-radius: 90rem;
+  animation: example 5s linear infinite;
+}
+
+@keyframes example {
+  0% {
+    transform: perspective(100px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(100px) rotateY(360deg);
+  }
+}
