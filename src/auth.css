@@ -1,0 +1,130 @@
+.outerDiv {
+  background-image: url("./login-image.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  box-shadow: 0 2px 8px crimson;
+  float: right;
+  border-radius: 30px;
+  padding: 1rem;
+  margin: 60px;
+  margin-right: 30%;
+  font-weight: bolder;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, #ffce00, #fe4880);
+  width: 20%;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.signbutton {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 25px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  /* display: inline-block; */
+
+}
+
+.googleLogin{
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left:41px;
+  margin-top: 10px;
+  
+}
+
+.signbutton:focus {
+  outline: none;
+}
+
+.signbutton:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+}
+
+.signbutton:active {
+  background: #ffce00;
+  border-color: #ff4382;
+}
+
+#move {
+  margin-left: 1rem;
+  margin-top: 15px;
+}
+.text {
+  text-align: center;
+  align-items: center;
+}
+
+#role {
+  padding: 9px;
+  margin: 1rem;
+  font-size: small;
+}
+
+#login {
+  border-radius: 40px;
+}
+.notice {
+  border-radius: 30px;
+  padding-left: 100px;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  margin: 70px;
+  font-weight: bolder;
+  background: rgb(255, 255, 255, 0.2);
+  height: 40%;
+  width: 650px;
+  align-items: center;
+  box-shadow: 5px 10px 18px #888888;
+  /* box-shadow: 5px 10px 8px 10px #888888; */
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+.notice div {
+  font-style: oblique;
+  color: #f7734b;
+  font-size: large;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.notice h1 {
+  text-shadow: 8px 2px 8px #c41e63;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .notice {
+    display: none;
+  }
+  .card {
+    /* box-shadow: 0 2px 8px crimson; */
+    float: right;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 60px;
+    margin-right: 30%;
+    font-weight: bolder;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, #ffce00, #fe4880);
+    width: 60%;
+    align-items: center;
+  }
+}

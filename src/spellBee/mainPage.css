@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.outer-div {
+  background-image: url("../assets/bee_back10.jpg");
+  position: fixed;
+  min-width: 98%;
+  min-height: 80%;
+  background-size: cover;
+
+  /* background-position: center; */
+  border-radius: 30px;
+  top: 90px;
+  left: 15px;
+  margin-right: 15px;
+  bottom: 15px;
+  display: flex;
+  /* z-index:1000; */
+}
+.NavbarItems {
+  background: linear-gradient(to bottom right, #ff4382, #ffce00);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2 rem;
+  /* margin-top: 30px; */
+}
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  font-size: 16px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* grid-gap: 1px; */
+  list-style: none;
+  /* text-align: center; */
+  width: 70vw;
+  justify-content: left;
+  margin-right: 1rem;
+  margin-left: 100px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  list-style: none;
+  /* display: flex; */
+  /* text-align: left; */
+}
+
+.nav-links:hover {
+  background-color: #e63c44;
+  /* border-radius: 1px; */
+  border-radius: 20px;
+  transition: all 0.2s ease-out;
+}
+
+.button {
+  font: inherit;
+  /* font-weight: 50px; */
+  padding: 0.5rem 2rem;
+  /* padding-bottom: 10px; */
+  border: 1px solid;
+  border-radius: 10px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  margin-left: 130px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+}
+
+.button:active {
+  background: #ffce00;
+  border-color: #ff4382;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 30px;
+  /* margin-left: 5px; */
+}
+
+/* .background{
+    opacity:0.4; */
+/* background-color:#ccc; */
+/* position:fixed;
+    margin-top: 80px;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+} */
+
+.white-div {
+  border: 5px solid #000;
+  /* padding: 10px; */
+  border-radius: 25px;
+  /* box-shadow:  15px  ; */
+  /* border-radius: 20px ; */
+  background-color: #fff;
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-left: 250px;
+  /* margin-left: 200px; */
+  width: 400px;
+  height: 470px;
+}
+.blue-div {
+  /* border: 5px solid #000;
+  padding: 10px;
+  border-radius: 25px; */
+  /* box-shadow:  15px  ; */
+  border-radius: 20px;
+  background: linear-gradient(to top right, #068bf8, #d8d0b0);
+  padding: 35px;
+  margin-top: 0px;
+  /* align-content: space-around; */
+  margin-left: 5px;
+  /* margin-left: 50px; */
+  width: 500px;
+  height: 410px;
+}
+.spell-title {
+  margin-top: 0px;
+  height: 180px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.letter1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 80;
+  width: 70px;
+  transform: rotate(20deg);
+
+  animation: shake 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+.letter2 {
+  margin-left: 30px;
+  margin-top: 40px;
+  height: 50px;
+  width: 50px;
+  transform: rotate(190deg);
+  animation: example 6s linear infinite;
+}
+
+
+.letter3 {
+  margin-left: 1px;
+  margin-top: 100px;
+  height: 50px;
+  width: 50px;
+  transform: rotate(-30deg);
+  animation: shake 4s;
+  animation-iteration-count: infinite;
+}
+
+.letter4 {
+  margin-left: 1px;
+  margin-top: 30px;
+  height: 80px;
+  width: 80px;
+  transform: rotate(20deg);
+  animation: example 6s linear infinite;
+}
+
+.letter5 {
+  margin-left: 1px;
+  margin-top: 90px;
+  height: 65px;
+  width: 60px;
+  transform: rotate(-20deg);
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

@@ -1,0 +1,26 @@
+.closeButton {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid;
+    border-radius: 20px;
+    background: #e63c44;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    text-decoration: none;
+    display: inline-block;
+    font: inherit;
+  }
+  
+  .closeButton:focus {
+    outline: none;
+  }
+  
+  .closeButton:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .closeButton:active {
+    background: 0 0 15 rgba(0, 0, 0, 0.2);
+  }
+  

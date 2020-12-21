@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.NavbarItems-teacher {
+  background: linear-gradient(to bottom right, #ff4382, #ffce00);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2 rem;
+}
+.navbar-logo-teacher {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu-teacher {
+  font-size: 16px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  /* grid-gap: 1px; */
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.nav-links-teacher {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  list-style: none;
+}
+
+.nav-links-teacher:hover {
+  background-color: #e63c44;
+  border-radius: 1px;
+  transition: all 0.2s ease-out;
+  border-radius: 20px;
+}
+
+.body-div-teacher {
+  box-shadow: 1px 5px crimson;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffcc99 0%, #ffff66 100%);
+  padding: 50px;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 40px;
+  width: 330px;
+  height: 180px;
+}
+
+.text-teacher {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  display: grid;
+  text-decoration: underline overline;
+  text-align: center;
+}
+
+.button-div {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* .go-div{
+    background-color:#fff;
+    /* padding: 50px; */
+/* margin-top: 30px; */
+/* margin: auto; */
+/* width: 100px;
+    height: 50px;
+    border-radius: 10px; */
+
+/* }
+.go{ */
+/* color: #000; */
+/* font-size: 16px;
+    font-weight: 10px;
+    text-decoration: none;
+    text-align: center; */
+/* padding: 0.5rem 0.5rem; */
+/* list-style: none; */
+/* } */
+
+/* .go:hover{
+
+background-color: #f7734b;
+border-radius: 1px;
+transition: all 0.2s ease-out;
+}  */
+
+.all-divs {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  /* display: inline-block; */
+  /* background: linear-gradient(to bottom right, #fff, #f7734b   ); */
+  height: 100%;
+}
+.button-teacher {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 20px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-teacher:focus {
+  outline: none;
+}
+
+.button-teacher:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+}
+
+.button-teacher:active {
+  background: #ffce00;
+  border-color: #ff4382;
+}
+.logo {
+  height: 60px;
+  border-radius: 30px;
+  animation: example 5s linear infinite;
+}
+
+@keyframes example {
+  0% {
+    transform: perspective(100px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(100px) rotateY(360deg);
+  }
+}
